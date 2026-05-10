@@ -26,13 +26,28 @@ The logic is broken down into several sub-units:
 
 ## Circuit & Hardware Visuals
 
+### Proteus Simulation Sub-circuits
+
+**1. Latching Inputs (Inside & Outside)**
+![Latching Inputs](images/image2.png)
+
+**2. Direction Control Unit**
+![Direction Control Unit](images/image3.png)
+
+**3. Up/Down Counter (Priority Encoder & Demultiplexer)**
+![Up/Down Counter](images/image4.png)
+
+**4. Display Unit (Floor & Wait Time)**
+![Display Unit](images/image5.png)
+
 ### Overall Circuit Simulation (Proteus)
 ![Proteus Circuit Simulation](images/image6.png)
 
-### Direction Control & Latching Logic
-![Direction Control Logic](images/image7.png)
-
 ### Hardware Implementation (Breadboard)
+**Latching Section with Push Buttons:**
+![Hardware Setup Latching](images/image7.png)
+
+**Overall Breadboard Circuit:**
 ![Hardware Setup 1](images/image8.png)
 ![Hardware Setup 2](images/image9.png)
 
